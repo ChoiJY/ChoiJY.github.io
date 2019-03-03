@@ -1,4 +1,4 @@
-### https://choijyghpages.herokuapp.com <-- 기존 
+### https://choijyghpages.herokuapp.com <-- 기존 주소에서 변경
 
 <hr>
 
