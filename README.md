@@ -1,1 +1,1 @@
-### https://choijyghpages.herokuapp.com로 link 
+### https://choijyghpages.herokuapp.com로 fix
