@@ -1,9 +1,13 @@
-### https://choijyghpages.herokuapp.com로 fix
+### https://choijyghpages.herokuapp.com <-- 기존 
+
+<hr>
 
 ## notice
 
 - 기존 page react migration
 - Grunt를 이용한 CI/자동 배포/Unit test 반영할 때 까지 heroku에서 배포
+
+<hr>
 
 ## used dev stacks
 
