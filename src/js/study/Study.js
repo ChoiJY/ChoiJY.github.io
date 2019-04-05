@@ -19,8 +19,10 @@ class Study extends Component{
                         <div className="background col-md-8 col-xs-12">
                             <article>
                                 <h2>Programming Languages</h2>
-                                <li className="describe_profile_li">Java (8)</li>
-                                <li className="describe_profile_li">Javascript (ES6)</li>
+                                <li className="describe_profile_li">Java (~ jdk 1.8)</li>
+                                <li className="describe_profile_li">Javascript (ES5, ES6)</li>
+                                <li className="describe_profile_li">Python</li>
+                                <li className="describe_profile_li">C</li>
                             </article>
                             <article>
                                 <h2>Front-End</h2>
@@ -29,6 +31,7 @@ class Study extends Component{
                                     <li className="describe_profile_li">React</li>
                                     <li className="describe_profile_li">Vue.JS</li>
                                     <li className="describe_profile_li">ES6</li>
+                                    <li className="describe_profile_li">jQuery</li>
                                 </ul>
                             </article>
                             <article>
@@ -36,6 +39,8 @@ class Study extends Component{
                                 <ul className="describe_profile_ul">
                                     <li className="describe_profile_li">Java Spring</li>
                                     <li className="describe_profile_li">Node.JS/Express</li>
+                                    <li className="describe_profile_li">Nginx</li>
+                                    <li className="describe_profile_li">AWS / Heroku</li>
                                 </ul>
                             </article>
                         </div>

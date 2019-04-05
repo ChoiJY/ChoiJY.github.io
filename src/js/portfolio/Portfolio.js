@@ -20,7 +20,7 @@ class Portfolio extends Component{
                                     <iframe title="ppt" src="https://drive.google.com/file/d/12kCjbmYMbTgKzchvtKdMp-XjCBlQ15pd/preview" width="100%" height="500px"></iframe>
                                 </article>
                                 <article>
-                                    <h2>프로젝트 demo 링크</h2>
+                                    <h2>Project demo 링크</h2>
                                     <blockquote className="blockquote">
                                         <ul>
                                             <li><a href="https://pf.kakao.com/_iSPdxl">인공지능 챗봇 'CJ 싸이먼챗'</a></li>
