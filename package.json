@@ -11,6 +11,7 @@
     "react-scripts": "2.1.5"
   },
   "scripts": {
+    "precommit": "lint-staged",
     "predeploy": "npm run build",
     "deploy": "git subtree push --prefix build origin gh-pages",
     "start": "react-scripts start",
@@ -19,12 +20,24 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "airbnb"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.1",
+    "husky": "^3.0.2",
+    "lint-staged": "^9.2.1",
+    "prettier": "^1.18.2"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
 }

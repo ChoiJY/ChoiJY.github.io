@@ -62,15 +62,15 @@ body {
     background: whitesmoke;
 }
 
-.col-12{
+.col-12 {
     background: whitesmoke;
 }
 
-.background{
+.background {
     background: whitesmoke;
 }
 
-.footer{
+.footer {
     text-align: center;
 }
 
@@ -154,12 +154,12 @@ li {
 }
 
 .blockquote > ul > li > a {
-    list-style:none;
-    padding:5px;
+    list-style: none;
+    padding: 5px;
     color: grey;
 }
 
-.photo-frame{
+.photo-frame {
     max-width: 100%;
     max-height: 100%;
     border-radius: 15px;

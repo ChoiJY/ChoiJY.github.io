@@ -10,38 +10,39 @@ import myImage from "../../img/profile.jpg";
  */
 class Sidebar extends Component {
 
-    makeActive = () => {
+  makeActive = () => {
 
-        document.getElementsByClassName('list-group-item-action').className -= 'active';
+    document.getElementsByClassName('list-group-item-action').className -= 'active';
 
-        let nowUrl = window.location.href;
-        if( nowUrl.indexOf('about') >= 0 ){
-            document.getElementsByClassName('li-about').className += 'active';
-        } else if( nowUrl.indexOf() >= 0 ){
+    let nowUrl = window.location.href;
 
-        } else {
-            document.getElementsByClassName('li-profile').className += 'active';
-        }
+    if (nowUrl.indexOf('about') >= 0) {
+      document.getElementsByClassName('li-about').className += 'active';
+    } else if (nowUrl.indexOf() >= 0) {
+
+    } else {
+      document.getElementsByClassName('li-profile').className += 'active';
     }
+  };
 
-    render() {
-        return (
-            <div className="Sidebar">
-                {/* personal introuction*/}
-                <div>
-                    <img src={myImage} className="photo-frame" alt="personalImage"></img>
-                </div>
-                {/* side menu & profile link*/}
-                <ul className="list-group list-group-flush">
-                    <a href="about" className="li-about list-group-item list-group-item-action">About Me</a>
-                    <a href="/" className="li-profile list-group-item list-group-item-action">Profile</a>
-                    <a href="portfolio" className="li-portfolio list-group-item list-group-item-action">Portfolio</a>
-                    <a href="study" className="li-study list-group-item list-group-item-action">Study</a>
-                </ul>
-                <Footer/>
-            </div>
-        );
-    }
+  render() {
+    return (
+        <div className="Sidebar">
+          {/* personal introuction*/}
+          <div className="text-center">
+            <img src={myImage} className="rounded photo-frame" alt="personalImage"/>
+          </div>
+          {/* side menu & profile link*/}
+          <ul className="list-group list-group-flush">
+            <a href="about" className="li-about list-group-item list-group-item-action">About Me</a>
+            <a href="/" className="li-profile list-group-item list-group-item-action">Profile</a>
+            <a href="portfolio" className="li-portfolio list-group-item list-group-item-action">Portfolio</a>
+            <a href="study" className="li-study list-group-item list-group-item-action">Study</a>
+          </ul>
+          <Footer/>
+        </div>
+    );
+  }
 }
 
 export default Sidebar;
