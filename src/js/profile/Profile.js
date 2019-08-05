@@ -9,7 +9,7 @@ class Profile extends Component{
                 <div className="container" id="wrapper">
                     <div className="row">
                         {/* sidebar start */}
-                        <div className="background col-md-4 col-xs-12 navbar">
+                        <div className="background col-md-4 col-xs-12">
                             <Sidebar/>
                         </div>
                         {/* sidebar end */}

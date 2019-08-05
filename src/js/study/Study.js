@@ -9,7 +9,7 @@ class Study extends Component{
                 <div className="container" id="wrapper">
                     <div className="row">
                         {/* sidebar start */}
-                        <div className="background col-md-4 col-xs-12 navbar navbar-expand-xs">
+                        <div className="background col-md-4 col-xs-12">
                             <Sidebar/>
                         </div>
                         {/* sidebar end */}
