@@ -8,7 +8,7 @@ class Portfolio extends Component{
                 <div className="container" id="wrapper">
                     <div className="row">
                         {/* sidebar start */}
-                        <div className="background col-md-4 col-xs-12">
+                        <div className="background col-md-4 col-xs-12 navbar">
                             <Sidebar/>
                         </div>
                         {/* sidebar end */}

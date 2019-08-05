@@ -3,15 +3,13 @@ import Sidebar from "../common/Sidebar";
 
 class Study extends Component{
 
-    function(){}
-
     render(){
         return(
             <div className="Contents">
                 <div className="container" id="wrapper">
                     <div className="row">
                         {/* sidebar start */}
-                        <div className="background col-md-4 col-xs-12">
+                        <div className="background col-md-4 col-xs-12 navbar navbar-expand-xs">
                             <Sidebar/>
                         </div>
                         {/* sidebar end */}

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Sidebar from "../common/Sidebar";
 
-class Profiles extends Component{
+class Profile extends Component{
 
     render(){
         return(
@@ -9,7 +9,7 @@ class Profiles extends Component{
                 <div className="container" id="wrapper">
                     <div className="row">
                         {/* sidebar start */}
-                        <div className="background col-md-4 col-xs-12">
+                        <div className="background col-md-4 col-xs-12 navbar">
                             <Sidebar/>
                         </div>
                         {/* sidebar end */}
@@ -19,7 +19,7 @@ class Profiles extends Component{
                                 <h2>Professional Experience</h2>
                                 <blockquote className="describe_profile">
                                     <ul className="describe_profile_ul">
-                                        <li className="describe_profile_li">메조미디어 데이터솔루션센터 광고솔루션개발팀 (2018.07 ~ 현재)</li>
+                                        <li className="describe_profile_li">메조미디어 데이터솔루션센터 (2018.07 ~ 현재)</li>
                                         <li className="describe_profile_li">CJ 올리브네트웍스 융합기술연구소 (2017.12 ~ 2018.02)</li>
                                         <li className="describe_profile_li">엠투소프트 기술연구소 (2016.12 ~ 2017.02)</li>
                                     </ul>
@@ -68,4 +68,4 @@ class Profiles extends Component{
     }
 }
 
-export default Profiles;
+export default Profile;

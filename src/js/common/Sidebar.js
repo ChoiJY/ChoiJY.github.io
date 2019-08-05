@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {NavLink} from 'react-router-dom';
 
 import Footer from "./Footer";
 
@@ -10,20 +11,9 @@ import myImage from "../../img/profile.jpg";
  */
 class Sidebar extends Component {
 
-  makeActive = () => {
-
-    document.getElementsByClassName('list-group-item-action').className -= 'active';
-
-    let nowUrl = window.location.href;
-
-    if (nowUrl.indexOf('about') >= 0) {
-      document.getElementsByClassName('li-about').className += 'active';
-    } else if (nowUrl.indexOf() >= 0) {
-
-    } else {
-      document.getElementsByClassName('li-profile').className += 'active';
-    }
-  };
+  constructor(props){
+    super(props);
+  }
 
   render() {
     return (
@@ -34,10 +24,10 @@ class Sidebar extends Component {
           </div>
           {/* side menu & profile link*/}
           <ul className="list-group list-group-flush">
-            <a href="about" className="li-about list-group-item list-group-item-action">About Me</a>
-            <a href="/" className="li-profile list-group-item list-group-item-action">Profile</a>
-            <a href="portfolio" className="li-portfolio list-group-item list-group-item-action">Portfolio</a>
-            <a href="study" className="li-study list-group-item list-group-item-action">Study</a>
+            {/*<a href="about" id={"li-about"} className="list-group-item list-group-item-action">About Me</a>*/}
+            <li><NavLink exact to="/" className="list-group-item list-group-item-action" activeClassName="active">Profile</NavLink></li>
+            <li><NavLink exact to="/portfolio" className="list-group-item list-group-item-action" activeClassName="active">Portfolio</NavLink></li>
+            <li><NavLink exact to="/study" className="list-group-item list-group-item-action" activeClassName="active">Study</NavLink></li>
           </ul>
           <Footer/>
         </div>
