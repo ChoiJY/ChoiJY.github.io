@@ -13,7 +13,7 @@
   "scripts": {
     "precommit": "lint-staged",
     "predeploy": "npm run build",
-    "deploy": "git subtree push --prefix build origin gh-pages",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
