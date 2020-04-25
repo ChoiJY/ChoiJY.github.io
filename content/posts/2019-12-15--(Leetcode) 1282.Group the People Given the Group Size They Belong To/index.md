@@ -1,5 +1,5 @@
 ---
-title: (Leetcode) 69.Sqrt(x) 
+title: (Leetcode) 1282.Group the People Given the Group Size They Belong To 
 category: "Algorithm"
 cover: algorithm.jpg
 author: Jun Young Choi
