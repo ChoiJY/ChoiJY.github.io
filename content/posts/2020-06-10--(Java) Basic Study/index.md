@@ -1,7 +1,7 @@
 ---
 title: (Java) Java Basic Study
 category: "Java"
-cover: java.png
+cover: java.jpg
 author: Jun Young Choi
 ---
 
