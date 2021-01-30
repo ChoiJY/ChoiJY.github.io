@@ -25,6 +25,7 @@ export default class HTML extends React.Component {
         <link rel="icon" type="image/png" sizes="16x16" href="../static/icons/favicon-16x16.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="../static/icons/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="96x96" href="../static/icons/favicon-96x96.png"/>
+        <meta name="google-site-verification" content="-n7JDUemTHWAIAU8NB1bDO8bALJ6BWOTGsgDICqrY08" />
       </head>
       <body {...this.props.bodyAttributes}>
       {this.props.preBodyComponents}
