@@ -12,8 +12,6 @@ A [GatsbyJS](https://www.gatsbyjs.org/) blog starter. <br /><br />
 
   <br />
 
-![](static/screens/gatsby-starter-hero-blog.gif) <br />
-
   <br />
 
 See the starter in action » [demo website](https://gatsby-starter-hero-blog.greglobinski.com/) <br />For more information visit » [dev.greglobinski.com/gatsby-starter-hero-blog](https://dev.greglobinski.com/gatsby-starter-hero-blog/)

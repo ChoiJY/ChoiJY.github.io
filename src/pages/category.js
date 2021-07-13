@@ -27,7 +27,7 @@ const CategoryPage = props => {
       }
     } = edge;
 
-    if (category && category != null) {
+    if (category) {
       if (!categories[category]) {
         categories[category] = [];
       }

@@ -2,4 +2,4 @@
 title: author
 ---
 
-**Jun Young Choi** <br/><br/>Junior Web Developer
+**Jun Young Choi** <br/><br/>AD Server Developer

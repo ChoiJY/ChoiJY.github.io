@@ -4,7 +4,7 @@ module.exports = {
   siteDescription: "JYC Dev blog",
   siteUrl: "https://jychoi,github.io",
   // pathPrefix: "",
-  siteImage: "preview.jpg",
+  siteImage: "",
   siteLanguage: "en",
 
   /* author */
@@ -13,7 +13,7 @@ module.exports = {
 
   /* info */
   headerTitle: "Jun Young Choi",
-  headerSubTitle: "Junior Developer",
+  headerSubTitle: "AD Server Developer",
 
   /* manifest.json */
   manifestName: "JYChoi's Devlog",

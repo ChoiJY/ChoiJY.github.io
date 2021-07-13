@@ -17,15 +17,51 @@ export default class HTML extends React.Component {
         <link rel="apple-touch-icon" href="../static/icons/apple-icon-60x60.png" sizes="60x60"/>
         <link rel="apple-touch-icon" href="../static/icons/apple-icon-72x72.png" sizes="72x72"/>
         <link rel="apple-touch-icon" href="../static/icons/apple-icon-76x76.png" sizes="76x76"/>
-        <link rel="apple-touch-icon" href="../static/icons/apple-icon-114x114.png" sizes="114x114"/>
-        <link rel="apple-touch-icon" href="../static/icons/apple-icon-120x120.png" sizes="120x120"/>
-        <link rel="apple-touch-icon" href="../static/icons/apple-icon-144x144.png" sizes="144x144"/>
-        <link rel="apple-touch-icon" href="../static/icons/apple-icon-152x152.png" sizes="152x152"/>
-        <link rel="apple-touch-icon" href="../static/icons/apple-icon-180x180.png" sizes="180x180"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="../static/icons/favicon-16x16.png"/>
-        <link rel="icon" type="image/png" sizes="32x32" href="../static/icons/favicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="96x96" href="../static/icons/favicon-96x96.png"/>
-        <meta name="google-site-verification" content="-n7JDUemTHWAIAU8NB1bDO8bALJ6BWOTGsgDICqrY08" />
+        <link
+          rel="apple-touch-icon"
+          href="../static/icons/apple-icon-114x114.png"
+          sizes="114x114"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="../static/icons/apple-icon-120x120.png"
+          sizes="120x120"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="../static/icons/apple-icon-144x144.png"
+          sizes="144x144"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="../static/icons/apple-icon-152x152.png"
+          sizes="152x152"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="../static/icons/apple-icon-180x180.png"
+          sizes="180x180"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="../static/icons/favicon-16x16.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="../static/icons/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="96x96"
+          href="../static/icons/favicon-96x96.png"
+        />
+        <meta name="google-site-verification"
+              content="x3NBZev8XyUhi0UgPC8jw7i6mj6Q03IHDAUAHy7Yor4"/>
       </head>
       <body {...this.props.bodyAttributes}>
       {this.props.preBodyComponents}

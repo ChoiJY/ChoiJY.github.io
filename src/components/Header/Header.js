@@ -1,13 +1,11 @@
-import { Link } from "gatsby";
+import {Link} from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
 import VisibilitySensor from "react-visibility-sensor";
 
-import { ScreenWidthContext, FontLoadedContext } from "../../layouts";
+import {ScreenWidthContext, FontLoadedContext} from "../../layouts";
 import config from "../../../content/meta/config";
 import Menu from "../Menu";
-
-import avatar from "../../images/jpg/avataaars.png";
 
 class Header extends React.Component {
   state = {
@@ -16,9 +14,9 @@ class Header extends React.Component {
 
   visibilitySensorChange = val => {
     if (val) {
-      this.setState({ fixed: false });
+      this.setState({fixed: false});
     } else {
-      this.setState({ fixed: true });
+      this.setState({fixed: true});
     }
   };
 
@@ -30,8 +28,8 @@ class Header extends React.Component {
   };
 
   render() {
-    const { pages, path, theme } = this.props;
-    const { fixed } = this.state;
+    const {pages, path, theme} = this.props;
+    const {fixed} = this.state;
 
     return (
       <React.Fragment>
@@ -60,7 +58,7 @@ class Header extends React.Component {
           </FontLoadedContext.Consumer>
         </header>
         <VisibilitySensor onChange={this.visibilitySensorChange}>
-          <div className="sensor" />
+          <div className="sensor"/>
         </VisibilitySensor>
 
         {/* --- STYLES --- */}
