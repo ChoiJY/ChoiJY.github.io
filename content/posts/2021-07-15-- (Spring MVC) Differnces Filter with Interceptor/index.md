@@ -1,13 +1,12 @@
 ---
-title: (Spring MVC) Differences Filter with Interceptor
+title: (Spring MVC) Filter와 Interceptor의 차이점
 category: "Spring"
 cover: spring.png
 author: Jun Young Choi
 ---
 ## Problem
 
-Spring MVC를 이용해서 특정 request에 대한 전처리, 후처리가 필요한 경우가 있는데,  
-유사한 기능을 가진 Filter, Interceptor에 대한 작동 원리와 차이를 정확히 알아보자
+Spring MVC를 이용해서 특정 request에 대한 전처리, 후처리가 필요한 경우가 있는데, 이런 기능을 구현하기 위해서 Interceptor나 Filter를 사용하게 된다. 유사한 기능을 가진 이 둘에 대한 작동 원리와 차이를 정확히 알고 사용하자
 
 전체적인 Spring MVC request life cycle은 아래 그림과 같다.  
 
@@ -15,7 +14,7 @@ Spring MVC를 이용해서 특정 request에 대한 전처리, 후처리가 필�
 
 ## Commonality
 
-Filter와 interceptor 모두 request에 대한 pre/post handling을 수행하는 interface
+Filter와 Interceptor 모두 request에 대한 pre/post handling을 수행하는 Interface
 
 ## Differences
 
@@ -27,13 +26,13 @@ Filter와 interceptor 모두 request에 대한 pre/post handling을 수행하는
 
     반면에 Interceptor의 경우 ServletDispathcer 내에 있기 때문에, `@ControllerAdvice` 와 `@ExceptionHandler` 를 이용해서 Exception 처리를 할 수 있다. 
 
-    전후 처리 로직에서 Exception을 global하게 처리하고 싶다면 interceptor를 사용하는 것이 나을 것 같음
+    전후 처리 로직에서 Exception을 global하게 처리하고 싶다면 Filter보다는 Interceptor를 사용하는 것이 더 좋을 것 같다.
 
 - Interface의 차이
 
-    당연하게도 위 2개의 interface는 다르다. view rendering(GNB)등을 처리하기 위해서는 interceptor를 사용
+    당연하게도 위 2개의 interface는 다르다. 특정 유저들의 권한에 따른 view rendering(GNB)등을 처리하기 위해서는 interceptor를 사용하자
 
 ## References
 
-- Exception Handling in Spring MVC 
+- Exception Handling in Spring MVC     
 ([https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc](https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc))
