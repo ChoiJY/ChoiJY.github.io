@@ -23,7 +23,7 @@ AD Solution Developer
     - Redis
     - MySQL
 - Etc
-    - Git / Jenkins
+    - Git/Jenkins
     - nginx
     - Kafka
     
