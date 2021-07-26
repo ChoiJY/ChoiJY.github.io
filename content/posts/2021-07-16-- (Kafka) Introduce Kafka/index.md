@@ -1,5 +1,5 @@
 ---
-title: (Kafka) Introduce Kafka
+title: Introduce Kafka
 category: "Kafka"
 cover: kafka.png
 author: Jun Young Choi
