@@ -1,5 +1,5 @@
 ---
-title: (Kafka) Kafka Client 
+title: (Basic concept) Kafka Client 
 category: "Kafka"
 cover: kafka.png
 author: Jun Young Choi
