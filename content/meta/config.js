@@ -13,7 +13,7 @@ module.exports = {
 
   /* info */
   headerTitle: "Jun Young Choi",
-  headerSubTitle: "AD Server Developer",
+  headerSubTitle: "Platform Engineer",
 
   /* manifest.json */
   manifestName: "JYChoi's Devlog",
