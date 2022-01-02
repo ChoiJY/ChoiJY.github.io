@@ -2,4 +2,4 @@
 title: author
 ---
 
-**Jun Young Choi** <br/><br/>AD Server Developer
+**Jun Young Choi** <br/><br/>Platform Engineer
