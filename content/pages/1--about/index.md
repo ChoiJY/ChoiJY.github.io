@@ -3,11 +3,11 @@ title: About me
 menuTitle: About me
 ---
 
-Platform Engineer  
-  
+Platform Engineer
+
 주로 Spring을 이용해서 광고 효율 분석 시스템 BE 개발을 3년간 수행했고, React를 이용한 FE 개발에 대해서도 관심이 많습니다. 현재는 Spring을 기반으로 한 실시간 데이터 처리 플랫폼 개발을 수행하고 있습니다.
-  
-작은 차이가 모여 전체적인 퀄리티의 차이를 가져온다고 믿기 때문에 항상 더 나은 개발 프로세스 그리고 이를 뒷받침하는 조직 문화에 관심이 많습니다.   
+
+작은 차이가 모여 전체적인 퀄리티의 차이를 가져온다고 믿기 때문에 항상 더 나은 개발 프로세스 그리고 이를 뒷받침하는 조직 문화에 관심이 많습니다.
 
 ### Tech Stack
 - Languages
@@ -26,13 +26,18 @@ Platform Engineer
     - Git/Jenkins
     - nginx
     - Kafka
-    
+
 ### Professional Experience
 #### Hyundai Card Personalization Service 3 Team (2021.10 ~ now)
 
-- 실시간 데이터 처리 플랫폼 개발  
+- 실시간 데이터 처리 플랫폼 개발
+    - 사용 기술 : Spring Boot, Kafka, Flink, MySQL, AWS
+    - Spring 기반 실시간 데이터 처리 플랫폼 개발
+    - BE Application API 개발
+    - BE Async 기반 실시간 데이터 적재 관련 API 개발
+    - 타 시스템 API 연동 개발
 
-#### CJ ENM Mezzomedia Infrastructure Development Team (2018.07 ~ 2021.10)  
+#### CJ ENM Mezzomedia Infrastructure Development Team (2018.07 ~ 2021.10)
 
 - 리포팅 자동화 시스템 개발 및 운영
     - 사용 기술 : Spring Boot, Kafka, MySQL, Flask
@@ -45,8 +50,8 @@ Platform Engineer
     - MSA 전환 관련 kafka topic publisher 설계 및 개발, Eureka Server 설계 및 구축
 - 퍼포먼스 마케팅 운영 자동화 시스템 개발
     - 구글, 페이스북, 카카오 광고 집행 통합 플랫폼 개발
-    - 사용 기술 : Spring Boot, Kafka, MySQL 
-    - 매체(Kakao) API 연동 및 계정 내 카카오 Oauth 인증 관리 시스템 개발 
+    - 사용 기술 : Spring Boot, Kafka, MySQL
+    - 매체(Kakao) API 연동 및 계정 내 카카오 Oauth 인증 관리 시스템 개발
     - 사내 타 시스템 간 REST API 서비스 스펙 정의 및 개발
 - 재무관리시스템 고도화 개발
     - 기존 사내 재무 관련 포털 시스템 고도화
@@ -68,15 +73,15 @@ Platform Engineer
     - Atomic Design Pattern을 기반으로 한 공통 Component 구조 설계
     - User Side Page 전체 개발, 페이지 성능 최적화 수행
     - BE-FE 연동 관련 REST API 개발
-    - Git, Jenkins를 기반으로 한 CD/CI 구축  
+    - Git, Jenkins를 기반으로 한 CD/CI 구축
 - DB화재 이벤트 페이지 시스템 개발
     - 사용 기술 : Spring Boot, RabbitMQ, MySQL
     - DB화재 이벤트 랜딩 페이지 시스템 개발
-    - Thymeleaf 기반 Mobile(FE) 전체 개발 및 BE-FE REST API 개발  
+    - Thymeleaf 기반 Mobile(FE) 전체 개발 및 BE-FE REST API 개발
 
 #### CJ Olivenetworks Convergence Technology Research (2017.12 ~ 2018.02)
 
-- 인공지능 챗봇 고도화  
+- 인공지능 챗봇 고도화
     - 사용 기술 : Node.js/Express.js, Spring
     - 카카오톡 챗봇 시스템 프로토타입 개발 및 기존 서비스 고도화
     - 실제 사용자 입력 키워드를 분석, 이를 기반으로 서비스 체류시간을 늘리기 위한 맞춤형 서비스 기획 및 개발
