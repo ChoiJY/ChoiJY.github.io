@@ -264,7 +264,7 @@ Ticket을 생성하는 static factory method create()를 비롯해서 음식점�
 
 KitchenService는 주방 service의 inbound adaptor에 의해서 호출된다. `accept()` , `reject()` , `preparing()` 등의 method는 각각의 aggregate를 가져와서 root에 존재하는 method를 호출하고 domain event를 publish하게 된다.
 
-```
+```java
 @Service
 @RequiredArgsConstructor
 public class KitchenService {
