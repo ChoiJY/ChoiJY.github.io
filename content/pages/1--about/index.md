@@ -3,10 +3,12 @@ title: About me
 menuTitle: About me
 ---
 
-Platform Engineer
+BE Developer
 
-주로 Spring을 이용해서 광고 효율 분석 시스템 BE 개발을 3년간 수행했고, React를 이용한 FE 개발에 대해서도 관심이 많습니다. 현재는 Spring을 기반으로 한 실시간 데이터 처리 플랫폼 개발을 수행하고 있습니다.
+BE Developer 최준영입니다.
+지금까지 주로 Spring을 이용해서 광고 효율 분석/사내 업무 지원 시스템/실시간 데이터 처리 플랫폼 BE 개발을 수행해 왔으며, React를 이용한 FE 개발에 대해서도 관심이 많아 주도적으로 프로젝트를 수행한 적이 있습니다.
 
+매번 익숙하고 동일한 방법 보다는 늘 새로운 다양한 기술을 직접 사용해보며 최선의 답을 찾기 위해서 노력하고 있습니다.
 작은 차이가 모여 전체적인 퀄리티의 차이를 가져온다고 믿기 때문에 항상 더 나은 개발 프로세스 그리고 이를 뒷받침하는 조직 문화에 관심이 많습니다.
 
 ### Tech Stack
@@ -19,11 +21,11 @@ Platform Engineer
     - Spring
     - Flask
 - Database
-    - MongoDB
     - Redis
     - MySQL
 - Etc
     - Git/Jenkins
+    - Flink
     - nginx
     - Kafka
 
@@ -31,11 +33,12 @@ Platform Engineer
 #### Hyundai Card Personalization Service 3 Team (2021.10 ~ now)
 
 - 실시간 데이터 처리 플랫폼 개발
-    - 사용 기술 : Spring Boot, Kafka, Flink, MySQL, AWS
-    - Spring 기반 실시간 데이터 처리 플랫폼 개발
-    - BE Application API 개발
-    - BE Async 기반 실시간 데이터 적재 관련 API 개발
-    - 타 시스템 API 연동 개발
+    - 사용 기술 : Spring Boot, Kafka, Flink, MySQL, Redis, AWS
+    - 실시간 데이터 처리 플랫폼 개발
+    - BE Web Application API 설계, 개발
+    - BE 데이터 적재 Application 개발
+    - Flink Application Sequence Pattern 설계 / Tag 데이터 결합 기능 관련 개발
+    - 성능 테스트를 기반으로 한 성능 최적화 수행
 
 #### CJ ENM Mezzomedia Infrastructure Development Team (2018.07 ~ 2021.10)
 
@@ -45,7 +48,7 @@ Platform Engineer
     - Web Client FE/BE 개발
     - Admin 관련 FE/BE(통계, 메일 알림, 공지사항 등) 설계 및 기능 개발
     - API 미 제공 매체에 대한 리포트 데이터 수집 크롤러 개발 (Python)
-    - API 제공 매체 연동 및 리포트 데이터 수집 관련 시스템 개발(Spring)
+    - API 제공 매체 연동 및 리포트 데이터 수집 관련 시스템 개발 (Spring)
     - 사용자 리포트 다운로드 및 통계 페이지 관련 JPA 성능 BE 최적화
     - MSA 전환 관련 kafka topic publisher 설계 및 개발, Eureka Server 설계 및 구축
 - 퍼포먼스 마케팅 운영 자동화 시스템 개발
@@ -65,7 +68,7 @@ Platform Engineer
     - 시스템 전체 설계 및 개발, 운영
     - 모바일/PC/로그인, 비 로그인 환경에 따른 multi processor 기반 개발
     - Swagger를 이용한 API docs 개발
-    - Git, Jenkins, PM2 Clustering을 기반으로 한 CD/CI 구축 및 Slack 연동을 통한 시스템 모니터링 기능 개발
+    - Git, Jenkins, PM2 Clustering을 기반으로 한 CI/CD 구축 및 Slack 연동을 통한 시스템 모니터링 기능 개발
 - GRP 예측 시스템 개발
     - 사용 기술 : Spring, MySQL, React, Node.js/Koa
     - 각종 매체 상품/통계 데이터를 기반으로 캠페인의 광고 효율을 예측해 주는 시스템 개발
@@ -73,7 +76,7 @@ Platform Engineer
     - Atomic Design Pattern을 기반으로 한 공통 Component 구조 설계
     - User Side Page 전체 개발, 페이지 성능 최적화 수행
     - BE-FE 연동 관련 REST API 개발
-    - Git, Jenkins를 기반으로 한 CD/CI 구축
+    - Git, Jenkins를 기반으로 한 CI/CD 구축
 - DB화재 이벤트 페이지 시스템 개발
     - 사용 기술 : Spring Boot, RabbitMQ, MySQL
     - DB화재 이벤트 랜딩 페이지 시스템 개발
