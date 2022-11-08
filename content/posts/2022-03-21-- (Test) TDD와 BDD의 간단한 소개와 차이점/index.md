@@ -47,13 +47,13 @@ TDD의 경우 기획이 변경되어 설계를 변경해야 하는 경우, 아�
 
 하지만 BDD의 경우 아래와 같이 실제 product의 code를 생산하기 전인 설계 단계에서 대응이 가능하기 때문에 수정 시 비용이 적게 드는 장점을 가지고 있다.
 
-![BDD의 장점](bdd.png)
+![BDD의 장점](https://velog.velcdn.com/images/silmxmail/post/b90844e4-7bdb-42fd-b926-3de2ce6eb9f8/image.png)
 
 ### TDD와 BDD의 차이점
 
 TDD와 BDD 모두 특정 scenario에 대한 검증을 한다는 점에서는 공통점을 지닌다. 하지만 이 둘은 아래와 같은 차이를 가지고 있다.
 
-![TDD와 BDD 차이점](diference.png)
+![TDD와 BDD 차이점](https://velog.velcdn.com/images/ecvheo1/post/530d81f8-61b4-4a7d-9b97-e7c874222514/image.png)
 
 ### References
 
